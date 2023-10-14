@@ -5,15 +5,15 @@ import { AppComponent } from './app.component';
 import { FavouriteComponent } from './favourite/favourite.component';
 import { LikeComponent } from './like/like.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     FavouriteComponent,
-    LikeComponent
+    LikeComponent,
   ],
   imports: [
     BrowserModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
